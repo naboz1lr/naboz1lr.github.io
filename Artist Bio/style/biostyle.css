@@ -1,8 +1,4 @@
 
-*{
-    outline: 1px solid #bd793e54;
-    
-}
 
 body{
     background-color: #D4DF9E;
@@ -148,4 +144,14 @@ h1{
     font-family: "address-sans-pro", sans-serif;
     font-weight: 400;
     font-style: oblique;
+}
+
+.ff{
+   width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+    object-position: center;
+    
+    border-radius: 5px;
 }
