@@ -1,0 +1,68 @@
+*{
+    outline: 2px solid magenta;
+}
+
+:root{
+    font-size: 21px;
+}
+
+#parent{
+   
+    height:100vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    flex-wrap: wrap;
+    
+   
+    
+
+    gap: 10px;
+
+}
+
+#parent div {
+    
+    
+    
+    color:aliceblue;
+
+
+    
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.shub {
+    order: 1;
+    background-color:rgb(49, 109, 132);
+    flex-grow:2;
+}
+
+.wood{
+    order: 4;
+    background-color:rgb(43, 124, 43);
+    flex-grow:1;
+}
+
+.sun {
+    order: 2;
+    background-color: rgb(147, 50, 50);
+     flex-grow:1;
+    align-self: flex-start;
+}
+
+.phil {
+    order: 3;
+    background-color: rgb(134, 81, 59);
+     flex-grow:1;
+}
+
+.wood div{
+    background-color: coral;
+    width: 159px;
+}

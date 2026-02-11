@@ -1,0 +1,157 @@
+
+
+body{
+    background-color: #D4DF9E;
+}
+
+header{
+    text-align:center;
+    background-color: #676844;
+    padding: 10px 0px 10px 0px;
+    color:#D4DF9E;
+    font-family: "kuhlman-vf", sans-serif;
+    font-variation-settings: "SEED" 29, "wdth" 100;
+    letter-spacing: 3px;
+    
+}
+
+nav {
+    text-align:center;
+
+    padding: 10px 0px 10px 0px;
+    color:#D4DF9E;
+    
+
+}
+
+main{
+    text-align: center;
+    
+}
+
+main > p {
+    max-width:500px;
+    margin: 0 auto;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color:#676844;
+    color:#D4DF9E;
+}
+
+.projects img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+    object-position: center;
+    
+    border-radius: 5px;
+}
+
+img {
+    width:  25%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 5px;
+    
+    
+}
+
+main{
+    color: #4A4B2F;
+    margin: 30px 0px 30px 0px;
+}
+
+a {
+    color:#D4DF9E;
+    margin:0px 10px 0px 0px;
+}
+
+.projects p{
+    max-width:500px;
+    margin: 0 auto;
+}
+
+.projects a{
+    color: #4A4B2F;
+}
+
+.footer{  
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    max-width: 90vw;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.figma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+
+}
+
+.figma img{
+    width: 48%;
+    height: auto;
+    object-fit: contain;
+}
+
+.projects p{
+
+    width: 100;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+p{
+    font-family: "address-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "address-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "address-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.ff{
+   width: 500px;
+    height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+    object-position: center;
+    
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+
+*{
+    outline: 1px solid magenta;
+
+}
+
+:root{
+    font-size: 79.6px;
+}
+
+#main-container {
+    width:100%;
+    height: 500px;
+    background-color: aquamarine;
+    display:flex; /*This rule activates flex layout for a container*/
+    flex-direction:row; /*determines the direction of the content flow*/
+    padding:5px;
+    justify-content:flex-start; /*align items based on the main axis*/
+    align-items:center; /*align items based on the cross axis*/
+    gap: 10px; /* Only avaliable for flex and grid*/
+    overflow-x: scroll;
+    
+}
+
+#main-container div {
+    background-color: bisque;
+    padding:15px;
+    min-width:400px;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    align-items: flex-end;
+    
+}
+
+/*ASSIGNMENT:
+chestboard: 800x800
+centered
+64 boxes total
+
+
+
+
+
+*/
