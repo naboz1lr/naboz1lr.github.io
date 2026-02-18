@@ -1,0 +1,127 @@
+*{
+    outline: 2px dashed red;
+}
+
+:root{
+
+    font-size:18pt;
+}
+
+body{
+
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    gap:20px; /*will remove later I hope */
+}
+
+header, nav, main, footer{
+
+    
+}
+
+header{
+    background-color:rgb(183, 226, 212);
+    height: 200px;
+    
+    color:rgb(7, 8, 8);
+
+}
+
+nav{
+
+    background-color: rgb(87, 103, 98);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    
+}
+
+nav a{
+    display: inline-block;
+    padding:.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+
+nav a:hover{
+    background-color: deeppink;
+    color:blue;
+    scale: 2;
+}
+
+nav a:link{
+    background-color: gray;
+    color:white;
+    text-decoration: none;
+
+
+
+}
+main{
+    background-color: rgb(65, 39, 14);
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+aside{
+
+    background-color: rgb(155, 155, 207);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+}
+
+
+article{
+
+    background-color: antiquewhite;
+    flex-grow:1;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 10px 10px 10px 10px;
+   
+    
+}
+
+article:hover{
+    background-color: blueviolet;
+    
+}
+
+
+footer{
+    background-color: rgb(183, 147, 100);
+    min-height:150px;
+}
+
+.cards{
+    background-color: gray;
+    height: 400px;
+    width: 300px;
+    padding-top:10px;
+    margin-top: 10px;
+}
+
+#rose{
+    height:150px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.inside{
+    width:60px;
+    height:60px;
+    background-color:beige;
+}
