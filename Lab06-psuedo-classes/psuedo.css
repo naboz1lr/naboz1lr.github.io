@@ -1,0 +1,175 @@
+/**{
+    outline: 2px dashed red;
+}
+*/
+:root{
+
+    font-size:18pt;
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+
+    margin:0;
+ 
+    gap:20px; /*will remove later I hope */
+    background-color: #24222D;
+
+    min-height:100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer{
+
+    0s
+}
+
+header{
+    background-color:#9c7379;
+    height: 150px;
+    color: #471c25;
+    font-size: 4rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-family: "fiora-monograms", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav{
+
+    background-color: #24222D;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding-left: 10px;
+    color:#24222D;
+    
+}
+
+nav a{
+    display: inline-block;
+    padding:.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+nav a:hover{
+    background-color:#24222D;
+    color:#A59a7e;
+    scale: 1.1;
+}
+
+nav a:link{
+    background-color:#A59a7e;
+    color:#A59a7e;
+    text-decoration: none;
+    
+
+
+}
+main{
+    background-color: rgb(65, 39, 14);
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-grow:1;
+    
+}
+
+aside{
+
+    background-color: rgb(70, 65, 87);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+    color: #a59a7e;
+    gap:15px;
+}
+
+aside a{
+    color: #a59a7e;
+    
+}
+
+article{
+
+    background-color: #32303d;
+    flex-grow:1;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:15px;
+    padding: 15px 15px 15px 15px;
+   
+    
+}
+
+article:hover{
+    background-color: rgb(34, 30, 37);
+    
+}
+
+
+footer{
+    background-color: #9d90a6;
+    min-height:75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:.5rem;
+    
+}
+
+.cards{
+    background-color: gray;
+    height: 400px;
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding-top: 20px;
+}
+
+article p {
+    padding-left:20px;
+}
+
+
+.inside{
+    width:260px;
+    height:250px;
+    background-color:rgb(48, 48, 48);
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.cards:hover{
+    scale: 1.1;
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
