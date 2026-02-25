@@ -1,0 +1,39 @@
+
+#container{  /*background*/
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    padding-top: 75px
+    
+
+}
+
+#chestboard{  /*actual board*/
+    width: 800px;
+    height: 800px;
+    background-color:rgb(203, 123, 24);
+
+    /*centering*/
+    margin: auto;
+    
+    /*logic to make board*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#chestboard div{  /*pieces in board*/
+    width: 100px;
+    height: 100px;
+}
+
+.even{
+    background-color: rgb(233, 108, 108);
+    color: rgb(139, 37, 37);
+}
+
+.odd{
+    background-color: rgb(94, 94, 185);
+    color: rgb(42, 42, 148)94, 94, 185);
+}
