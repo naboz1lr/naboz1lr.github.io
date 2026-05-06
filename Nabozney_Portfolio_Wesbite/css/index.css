@@ -13,11 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    border: .5px solid lime; /* Debug border */
-    box-sizing: border-box;
-}  
-
 body {
     background-color: var(--ink-black);
     color: var(--alabaster-grey);
